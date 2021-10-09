@@ -9,6 +9,8 @@ Their example has fallen behind but I have contributed to bring it up to speed w
 
 My example is pretty much the same but with a couple of extra notes and scripts.
 
+We are assuming you have the i2c peripheral active in your raspberry pi. If using Raspbian search for how to use the raspi-config command.
+
 # Compilation
 Compiling on the Zero takes a bit, so that's why I have set up a cross-compilation environment. Cross-compile means we compile the code in our local machine but we execute it in the Raspberry Pi.
 
